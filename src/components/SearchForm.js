@@ -6,7 +6,7 @@ export default function SearchForm({ onSearch }) {
     species: ""
   });
   const handleInputChange = event => {
-    console.log("well well well, will you look at that", query);
+    console.log("will you look at that", query);
     setQuery({ ...query, [event.target.name]: event.target.value });
   };
 

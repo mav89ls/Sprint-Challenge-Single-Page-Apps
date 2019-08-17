@@ -14,8 +14,11 @@ const createLabel = (iconName, labelText) => (
 );
 
 const welcomeLabel = createLabel("home", "Home Page");
+
 const characterLabel = createLabel("users", "Characters");
+
 const locationLabel = createLabel("location", "Location");
+
 const episodesLabel = createLabel("episodes", "Episodes");
 
 const panes = [
