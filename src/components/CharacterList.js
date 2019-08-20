@@ -25,6 +25,7 @@ export default function CharacterList(props) {
           name={character.name}
           status={character.status}
           number={character.id}
+          gender={character.gender}
         />
       ))}
     </section>
